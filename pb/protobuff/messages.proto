@@ -1,0 +1,30 @@
+syntax = "proto3";
+package messages;
+
+message StreamPacket {
+    PacketType type     = 1;
+    string namespace    = 2;
+    bytes content       = 3;
+    int64 timestamp     = 4;
+    int64 lifespan      = 5;
+
+    string responseTag  = 6;
+
+}
+
+message SecureStreamPacket {
+    StreamPacket packet = 1;
+    bytes signature     = 2;
+    bytes source        = 3;
+}
+
+enum PacketType {
+    INTERNAL    = 0;
+    MESSAGE     = 1;
+    BROADCAST   = 2;
+    SEEK        = 3;
+
+    REQUEST     = 4;
+    RESPONSE    = 5;
+    END_RESPONSE = 6;
+}

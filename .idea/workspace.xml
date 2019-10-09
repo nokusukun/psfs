@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="54119976-d4fb-429b-b293-45e1810de0e1" name="Default Changelist" comment="misc(everything): First commit!">
+      <change afterPath="$PROJECT_DIR$/../psfs/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/.idea/psfs.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/api.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/configuration/config.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/parse.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/pb/messages.pb.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/pb/protobuff/messages.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/psfs-go.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/psfs.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/satellite/broadcast.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/satellite/internal_events.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/satellite/peer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/satellite/satellite.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../psfs/satellite/utils.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../psfs" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1RrbgOLKVPGNjKdo59hqJuRekec" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../psfs" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="GoMoveDeclarationDialog.RECENT_KEY">
+      <recent name="$PROJECT_DIR$/satellite" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\psfs\configuration" />
+      <recent name="C:\Projects\psfs\" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="psfs" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="github.com/nokusukun/psfsa" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="psfs" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+      <package value="github.com/nokusukun/psfsa" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="misc(everything): First commit!" />
+    <option name="LAST_COMMIT_MESSAGE" value="misc(everything): First commit!" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>direct</proxy>
+  </component>
+</project>
