@@ -69,3 +69,10 @@ satellite.Event(messages.PacketType_REQUEST, "whois", func(p *satellite.PeerMess
     return nil
 })
 ```
+
+### Security
+Satellites are inherently secure, connecting requires a 2048bit RSA key in order to interact with each other.
+Each packet is signed, but PSFS features a `lazysec` mode where the peers only need to sign the first packet to assume
+an authenticated status. Future packets aren't signed afterwards.
+
+Though, there are still several flaws that are still around.

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54119976-d4fb-429b-b293-45e1810de0e1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../psfs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psfs/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="54119976-d4fb-429b-b293-45e1810de0e1" name="Default Changelist" comment="doc(readme): Added more documentation in the readme.md file">
       <change beforePath="$PROJECT_DIR$/../psfs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../psfs/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../psfs/psfs-go.go" beforeDir="false" afterPath="$PROJECT_DIR$/../psfs/psfs-go.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +42,8 @@
       <recent name="$PROJECT_DIR$/satellite" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Projects\psfs\satellite" />
+      <recent name="C:\Projects\psfs\satellite\pb" />
       <recent name="C:\Projects\psfs\configuration" />
       <recent name="C:\Projects\psfs\" />
     </key>
@@ -88,7 +88,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="misc(everything): First commit!" />
-    <option name="LAST_COMMIT_MESSAGE" value="misc(everything): First commit!" />
+    <MESSAGE value="doc(readme): Added more documentation in the readme.md file" />
+    <option name="LAST_COMMIT_MESSAGE" value="doc(readme): Added more documentation in the readme.md file" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
