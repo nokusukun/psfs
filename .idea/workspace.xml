@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="54119976-d4fb-429b-b293-45e1810de0e1" name="Default Changelist" comment="misc(everything): First commit!">
-      <change afterPath="$PROJECT_DIR$/../psfs/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/.idea/psfs.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/api.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/configuration/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/parse.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/pb/messages.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/pb/protobuff/messages.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/psfs-go.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/psfs.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/satellite/broadcast.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/satellite/internal_events.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/satellite/peer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/satellite/satellite.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../psfs/satellite/utils.go" afterDir="false" />
+    <list default="true" id="54119976-d4fb-429b-b293-45e1810de0e1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../psfs/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../psfs/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psfs/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../psfs/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../psfs/psfs-go.go" beforeDir="false" afterPath="$PROJECT_DIR$/../psfs/psfs-go.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +37,7 @@
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../psfs" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="GoMoveDeclarationDialog.RECENT_KEY">

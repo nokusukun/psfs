@@ -41,7 +41,6 @@ func main() {
 	sat.Event(messages.PacketType_REQUEST, "whois", func(p *satellite.PeerMessage) error {
 		logger.Infof("Recieved whois request")
 		err := p.Reply(satellite.J{"id": sat.Host.ID().Pretty(), "b2048": b2048.Encode([]byte(sat.Host.ID().Pretty()))})
-		//err := p.Reply(b2048.Encode([]byte(sat.Host.ID().Pretty())))
 		if err != nil {
 			return err
 		}

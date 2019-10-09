@@ -28,6 +28,7 @@ enum PacketType {
     END_RESPONSE = 6;
 }
 ```
+```
 * Internal
     * Used by internal PSFS events
 * Message
@@ -45,3 +46,26 @@ enum PacketType {
 * EndResponse
     * A special response packet which notifies the specific `responseID` that the request is finished and that the
     stream should be closed.
+```
+
+### Event callbacks
+Event callbacks lets you handle whatever gets sent your way, think REST API.
+All of the events except for Request and Broadcast+Request events doesn't need a response.
+```go
+satellite.Event(messages.PacketType_MESSAGE, "greeting", func(p *satellite.PeerMessage) error {
+    fmt.Println("Recieved Message from:", satellite.PeerIDFy(p.Source.ID.String()), string(p.Packet.Content))
+    return nil
+})
+```
+#### Request Events
+Reqeust events are special events where you can respond to the requesting message
+```go
+satellite.Event(messages.PacketType_REQUEST, "whois", func(p *satellite.PeerMessage) error {
+    logger.Infof("Recieved whois request")
+    err := p.Reply(satellite.J{"id": sat.Host.ID().Pretty(), "b2048": b2048.Encode([]byte(sat.Host.ID().Pretty()))})
+    if err != nil {
+        return err
+    }
+    return nil
+})
+```
